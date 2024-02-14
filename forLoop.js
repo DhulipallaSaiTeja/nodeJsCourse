@@ -63,3 +63,27 @@ for(i=0; i<=100; i++){
     if(i % 5 !== 0)
     console.log(i)
 }
+
+for(i=0; i<9; i++){
+    let person = "Sai"
+    console.log(`My Name is`,person)
+}
+
+for(x=0; x<=50; x++){
+    console.log(x)
+}
+
+let sum = 0;
+
+for (let i = 1; i <= 10; i++) {
+    sum += i;  // This is same as: sum = sum + i
+}
+
+console.log('The sum of 1 to 10 is: ', sum)
+
+
+let m = 10;
+for(i=0;i<=20;i++){
+    m += i
+}
+console.log(`The Total Sum of 10 to 20 is`,m)
