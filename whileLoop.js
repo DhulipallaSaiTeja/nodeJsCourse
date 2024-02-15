@@ -9,14 +9,14 @@ while(condition){
 
 let i = 1;
 while(i < 10){
-    console.log(i)
+    console.log(`1`,i)
     i++
 }
 
 
 let a = 10;
 while(a>=1){
-    console.log(a)
+    console.log(`2`,a)
     a--
 }
 
